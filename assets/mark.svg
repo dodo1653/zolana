@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500"><defs><filter id="m" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="12"/></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .5 0"/></filter>
+  <radialGradient id="v" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#18120e"/><stop offset="1" stop-color="#0b0b0a"/></radialGradient></defs>
+  <g transform="translate(0 0) scale(1)">
+    <rect x="0" y="0" width="400" height="84" rx="6" fill="#ff5f1f"/>
+    <rect x="0" y="416" width="400" height="84" rx="6" fill="#ff5f1f"/>
+    <path d="M400 84 L94 416 L0 416 L306 84 Z" fill="#ff5f1f" opacity=".9" filter="url(#m)"/>
+  </g></svg>
